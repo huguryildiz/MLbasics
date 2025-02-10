@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# Generate synthetic data
+# Generate synthetic data (hi)
 np.random.seed(42)
 x = np.linspace(0, 10, 100)
 y = 3 * x + 7 + np.random.randn(100) * 2  # y = 3x + 7 + noise
