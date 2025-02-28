@@ -13,9 +13,8 @@ This repository contains **Lab 1 - Regression Analysis**, which explores **linea
 
 ## 🔧 Setup & Requirements
 To run the notebook, install the required dependencies:
-```bash
-pip install numpy pandas scikit-learn matplotlib
-```bash
+```bash pip install numpy pandas scikit-learn matplotlib
+
 
 ## 🚀 Usage
 Run the notebook to generate and visualize synthetic data.
