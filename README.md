@@ -10,12 +10,7 @@ This repository contains **Lab 1 - Regression Analysis**, which explores **linea
   - **Linear Regression**: Using `sklearn.linear_model.LinearRegression`
   - **Ridge Regression**: Applying L2 regularization using `sklearn.linear_model.Ridge`
   - **Performance Evaluation**: Mean Squared Error (MSE) comparison
-
-## 🔧 Setup & Requirements
-To run the notebook, install the required dependencies:
-```bash pip install numpy pandas scikit-learn matplotlib
-
-
+    
 ## 🚀 Usage
 Run the notebook to generate and visualize synthetic data.
 Train and compare unregularized vs. regularized regression models.
@@ -28,3 +23,12 @@ Optimal alpha minimizes test error.
 
 ## 🤝 Contributing
 Feel free to fork this repository, make improvements, and submit a pull request! 🚀
+
+## 🔧 Setup & Requirements
+To run the notebook, install the required dependencies:
+```bash
+
+pip install numpy pandas scikit-learn matplotlib
+
+
+
