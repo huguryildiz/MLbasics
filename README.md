@@ -15,15 +15,17 @@ This repository contains **Lab 1 - Regression Analysis**, which explores **linea
 To run the notebook, install the required dependencies:
 ```bash
 pip install numpy pandas scikit-learn matplotlib
+```bash
 
-
-🚀 Usage
+## 🚀 Usage
 Run the notebook to generate and visualize synthetic data.
 Train and compare unregularized vs. regularized regression models.
 Adjust the regularization strength (alpha) in Ridge regression to observe its effect.
-📊 Key Results
+
+##  📊 Key Results
 Unregularized Linear Regression may overfit.
 Ridge Regression (alpha > 0) controls overfitting and improves generalization.
 Optimal alpha minimizes test error.
-🤝 Contributing
+
+## 🤝 Contributing
 Feel free to fork this repository, make improvements, and submit a pull request! 🚀
