@@ -29,6 +29,3 @@ To run the notebook, install the required dependencies:
 ```bash
 
 pip install numpy pandas scikit-learn matplotlib
-
-
-
