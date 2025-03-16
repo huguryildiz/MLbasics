@@ -1,30 +1,31 @@
-# Lab 4 - Machine Learning Advice and Best Practices
+# Lab 5 - Decision Trees
 
 ## 📌 Overview  
-This repository contains **Lab 4 - Advice**, where we explore **machine learning best practices, debugging techniques, and optimization strategies**. The notebook focuses on **bias-variance tradeoff, learning curves, regularization, and model diagnostics** to improve performance in machine learning models.
+This repository contains **Lab 5 - Decision Trees**, where we explore **decision tree classifiers, tree visualization, feature importance, and model evaluation**. The notebook covers **training decision trees, understanding splitting criteria (entropy, Gini), pruning techniques, and hyperparameter tuning** to optimize performance.
 
 ---
 
 ## 📂 Files  
-**Lab4-Advice.ipynb** → Jupyter Notebook implementing:  
-- **Bias-Variance Tradeoff**: Understanding underfitting vs. overfitting  
-- **Learning Curves**: Visualizing model performance with different data sizes  
-- **Regularization**: L1 (Lasso) & L2 (Ridge) to control model complexity  
-- **Hyperparameter Tuning**: Adjusting learning rate, regularization strength, and model parameters  
-- **Error Analysis**: Diagnosing issues in training & test performance  
+**Lab5-DecisionTrees.ipynb** → Jupyter Notebook implementing:  
+- **Decision Tree Classifier**: Training and evaluating decision trees  
+- **Splitting Criteria**: Comparing **Gini impurity** vs. **Entropy**  
+- **Tree Visualization**: Using **`plot_tree`** to interpret decision paths  
+- **Feature Importance**: Analyzing key factors influencing predictions  
+- **Hyperparameter Tuning**: Adjusting max depth, min samples split, and pruning strategies  
+- **Random Forests**: Comparing single trees vs. ensemble methods  
 
 ---
 
 ## 🚀 Usage  
-Run the notebook to **analyze and improve machine learning models** by identifying bias-variance tradeoffs, optimizing hyperparameters, and applying regularization techniques.
+Run the notebook to **train and analyze decision trees**, evaluate feature importance, and optimize hyperparameters for improved classification performance.
 
 ---
 
 ## 📊 Key Results  
-- **Regularization (L1 & L2) helps prevent overfitting** by reducing model complexity.  
-- **Learning curves** provide insights into when more data is beneficial.  
-- **Hyperparameter tuning significantly affects model generalization.**  
-- **Error analysis** is essential for debugging and improving model performance.  
+- **Entropy and Gini impurity provide different decision splits** based on dataset characteristics.  
+- **Pruning techniques (pre-pruning & post-pruning) help prevent overfitting** in decision trees.  
+- **Feature importance analysis highlights the most influential attributes in predictions.**  
+- **Random forests often generalize better than individual decision trees.**  
 
 ---
 
@@ -36,9 +37,4 @@ Feel free to **fork** this repository, make improvements, and submit a **pull re
 ## 🔧 Setup & Requirements  
 To run the notebook, install the required dependencies:  
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn
-```
-Then, open the notebook:  
-```bash
-jupyter notebook Lab4-Advice.ipynb
-```
+pip install numpy pandas scikit-learn matplotlib seaborn xgboost
