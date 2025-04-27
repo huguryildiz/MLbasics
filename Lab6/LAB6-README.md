@@ -1,40 +1,47 @@
-
-# Lab 6 - Unsupervised Learning
+# Lab 6 - Unsupervised Learning & Deep Reinforcement Learning
 
 ## 📌 Overview  
-This repository contains **Lab 6 - Unsupervised Learning**, where we explore key concepts of **unsupervised machine learning**, including **clustering methods** (like K-Means) and **dimensionality reduction** techniques (such as PCA). The notebook demonstrates how to uncover hidden patterns in data without labeled outputs.
+This repository contains **Lab 6 - Unsupervised Learning and Deep Reinforcement Learning**, where we explore key unsupervised machine learning techniques like **clustering** and **dimensionality reduction**, alongside implementing a **Deep Q-Network (DQN)** agent to solve a simple 1D grid environment.
 
 ---
 
 ## 📂 Files  
 **Lab6_Unsupervised_Learning.ipynb** → Jupyter Notebook implementing:  
-- **K-Means Clustering**: Grouping similar data points automatically
-- **Elbow Method**: Determining the optimal number of clusters
-- **Silhouette Analysis**: Measuring clustering quality
-- **Principal Component Analysis (PCA)**: Reducing dimensionality for visualization
-- **t-SNE Visualization**: Mapping high-dimensional data to 2D for intuitive understanding
+- **K-Means Clustering**: Automatically grouping similar data points  
+- **Elbow Method**: Choosing the optimal number of clusters  
+- **Silhouette Analysis**: Evaluating clustering quality  
+- **Principal Component Analysis (PCA)**: Reducing feature dimensions  
+- **t-SNE Visualization**: Mapping high-dimensional data to 2D for interpretation  
+- **Deep Q-Network (DQN)**: Neural network-based Q-learning agent  
+- **Training a DQN Agent**: Learning optimal actions in a simple 1D grid world  
+- **ε-Greedy Policy**: Balancing exploration and exploitation during learning  
+- **Bellman Equation Targets**: Updating Q-values using deep learning  
+- **Reward Tracking and Performance Visualization**
 
 ---
 
 ## 🚀 Usage  
-Run the notebook to **apply clustering algorithms**, **evaluate cluster quality**, and **visualize high-dimensional datasets** using dimensionality reduction techniques.
+Run the notebook to:  
+- **Cluster unlabeled data** and visualize high-dimensional structures.  
+- **Train a DQN agent** to efficiently navigate a simple environment using learned Q-values.  
+- **Visualize agent's learning progress** episode-by-episode.
 
 ---
 
 ## 📊 Key Results  
-- **K-Means effectively separates data into meaningful clusters** based on feature similarities.
-- **The Elbow Method and Silhouette Scores guide the choice of cluster numbers** to avoid under/overfitting.
-- **PCA and t-SNE help visualize complex datasets** and reveal structure in an unsupervised setting.
+- **K-Means successfully identifies natural groups** within data without supervision.  
+- **PCA and t-SNE reveal meaningful low-dimensional structures** hidden in high-dimensional data.  
+- **Deep Q-Network enables the agent to learn optimal navigation strategies** through reinforcement and neural function approximation.  
+- **Training curves show increasing cumulative rewards over episodes**, indicating learning convergence.
 
 ---
 
 ## 🤝 Contributing  
-Feel free to **fork** this repository, propose enhancements, and submit a **pull request**! 🚀
+Feel free to **fork** this repository, suggest improvements, and submit a **pull request**! 🚀
 
 ---
 
 ## 🔧 Setup & Requirements  
 To run the notebook, install the required dependencies:  
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn
-```
+pip install numpy pandas scikit-learn matplotlib seaborn torch
