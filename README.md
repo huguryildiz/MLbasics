@@ -1,7 +1,7 @@
-# Machine Learning Labs - Regression, Classification & Neural Networks
+# Machine Learning Labs - Regression, Classification, Neural Networks, Unsupervised & Reinforcement Learning
 
 ## 📌 Overview  
-This repository contains **five Jupyter Notebooks** covering **Regression, Classification, Neural Networks, Decision Trees, and Machine Learning Best Practices**. Each lab provides **hands-on experiments** with practical implementations and evaluations.
+This repository contains **six Jupyter Notebooks** covering **Regression, Classification, Neural Networks, Decision Trees, Unsupervised Learning, Reinforcement Learning, and Machine Learning Best Practices**. Each lab provides **hands-on experiments** with practical implementations and evaluations.
 
 ### **Labs Overview:**
 - **Lab 1: Regression Analysis** → Linear & Ridge Regression  
@@ -9,6 +9,7 @@ This repository contains **five Jupyter Notebooks** covering **Regression, Class
 - **Lab 3: Neural Networks** → Multi-layer Feedforward Neural Networks (MLP)  
 - **Lab 4: ML Advice & Best Practices** → Bias-Variance Tradeoff, Regularization, and Model Optimization  
 - **Lab 5: Decision Trees & Random Forests** → Tree-based classifiers, feature importance, and hyperparameter tuning  
+- **Lab 6: Unsupervised & Reinforcement Learning** → Clustering, Dimensionality Reduction, and Simple Q-Learning Agents
 
 Each lab demonstrates:  
 ✔ **Data preprocessing & feature engineering**  
@@ -64,6 +65,18 @@ Implements:
 - **Feature Importance Analysis**  
 - **Hyperparameter Tuning for Decision Trees**  
 - **Random Forest (`RandomForestClassifier`) vs. Single Tree Performance**  
+
+### **Lab 6 - Unsupervised Learning & Reinforcement Learning**
+📄 **`Lab6_Unsupervised_Learning.ipynb`**  
+Implements:
+- **K-Means Clustering** (`KMeans`)  
+- **Elbow Method for Optimal Clusters**  
+- **Silhouette Analysis for Cluster Quality**  
+- **Principal Component Analysis (PCA)**  
+- **t-SNE for High-Dimensional Visualization**  
+- **Simple Reinforcement Learning (Q-Learning)**  
+- **Grid Environment Agent Training**  
+- **ε-Greedy Policy and Bellman Updates**  
 
 ---
 
